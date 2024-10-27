@@ -1,0 +1,16 @@
+div {
+    margin: auto;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0px 4px 8px hsla(0, 0%, 0%, 60%), 0px 0px 6px hsla(0, 0%, 0%, 60%);
+    padding: 10px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    transition: box-shadow 0.25s, width 0.4s, height 0.6s;
+}
+
+div:hover {
+    box-shadow: 0px 4px 20px hsla(0, 0%, 0%, 60%), 0px 0px 12px hsla(0, 0%, 0%, 60%);
+    height: 200px;
+    width: 400px;
+}
